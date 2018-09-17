@@ -1,0 +1,11 @@
+<div class="estatisticas">
+  <div class="maisPublicou">
+    <h2>O autor que mais publicou notícias: <span style="color: blue;">{{autor}}</span></h2>
+  </div>
+  <div class="porcentagemTags">
+    <div *ngFor = "let i of porcetagem">
+
+      <h2>Tags={{i[0]}} | Média={{i[1]}}</h2>
+    </div>
+  </div>
+</div>

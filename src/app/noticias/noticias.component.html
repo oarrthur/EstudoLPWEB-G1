@@ -1,0 +1,11 @@
+<div *ngFor = "let noticia of noticias">
+  <h1>{{noticia.titulo}}</h1>
+  <div class="content">
+    {{noticia.conteudo}}
+  </div>
+  <div class="footer">
+    {{noticia.autor}}
+    <br/>
+    {{noticia.tags}}
+  </div>
+</div>
